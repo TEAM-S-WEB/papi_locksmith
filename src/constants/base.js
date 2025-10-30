@@ -7,7 +7,7 @@ export const BASE_DATA = {
   address: "123 Main Street, New York, NY 10001",
   city: "New York",
   defaultLanguage: "en-US",
-  verification_google: "",
+  verification_google: "06d00a2347ddddea",
   description_global:
     "Reliable and professional locksmith services available 24/7 in New York and New Jersey. Fast response for all your lock and door repair needs.",
   youtube: "https://www.youtube.com/@ServiceOfAmerica",
