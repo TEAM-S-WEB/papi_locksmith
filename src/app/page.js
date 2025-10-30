@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
-import img from "../images/y7.jpg";
+import img from "../images/hero.jpg";
 import { BASE_DATA, PHOTO_COLLAGE_HOME } from "@/constants/base";
 
 

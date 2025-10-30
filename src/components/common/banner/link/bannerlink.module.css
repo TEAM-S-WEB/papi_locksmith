@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
     font-weight: bold;
-      background: #233876;
+      background: var( --bgc_bannerlink_call);
     color: #fff;
     padding: 11px 10px;
     border: none;
@@ -16,7 +16,7 @@
 
 
 .bannerLink:hover {
-    background: #1e293b;
+    background: var(--bgc_bannerlink_call_hover);
 }
 
 .link {

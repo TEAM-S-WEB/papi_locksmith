@@ -1,8 +1,8 @@
 export const BASE_DATA = {
-  siteName: "Locksmith YSL ",
-  altSiteName: "YSL - 24/7 Locksmith Services",
-  URL: "https://www.locksmithysl.com",
-  email: "info@locksmithysl.com",
+  siteName: "Papi Locksmith",
+  altSiteName: "PAPI - 24/7 Locksmith Services",
+  URL: "https://www.papilocksmith.com ",
+  email: "lad8doors@gmail.com",
   phone: "+1 (732) 631-4663",
   address: "123 Main Street, New York, NY 10001",
   city: "New York",
@@ -12,11 +12,11 @@ export const BASE_DATA = {
     "Reliable and professional locksmith services available 24/7 in New York and New Jersey. Fast response for all your lock and door repair needs.",
   youtube: "https://www.youtube.com/@ServiceOfAmerica",
   instagram: "https://www.instagram.com/service_of_america",
-  facebook: "https://www.facebook.com/ServiceOfAmerica",
+  facebook: "https://www.facebook.com/profile.php?id=61582526955669",
   page_contact: {
     title: "Contact Us",
     description:
-      "Get in touch with Locksmith YSL for all your locksmith needs. We are here to help you 24/7.",
+      "Get in touch with Locksmith PAPI for all your locksmith needs. We are here to help you 24/7.",
     keywords: [
       "locksmith contact",
       "locksmith services",
@@ -44,13 +44,13 @@ export const BASE_DATA = {
       "locksmith chat support",
       "locksmith callback request",
     ],
-    alt: "Contact Us | Locksmith YSL",
+    alt: "Contact Us | Locksmith papi",
     img: "https://i.ibb.co/Kx97sCw9/pexels-mikhail-nilov-8101456.jpg",
   },
   page_about: {
     title: "About Us",
     description:
-      "Learn more about Locksmith YSL, our mission, and our team of expert locksmiths.",
+      "Learn more about Locksmith Papi, our mission, and our team of expert locksmiths.",
     keywords: [
       "about locksmith",
       "locksmith company",
@@ -63,13 +63,13 @@ export const BASE_DATA = {
       "locksmith services",
       "locksmith solutions",
     ],
-    alt: "About Us | Locksmith YSL",
+    alt: "About Us | Locksmith PAPI",
     img: "https://i.ibb.co/HD0WcfJ9/A-high-resolution-digital-photograph-showcases-loc-resized.webp",
   },
   page_privacy: {
     title: "Privacy Policy",
     description:
-      "Understand how Locksmith YSL collects, uses, and protects your personal information.",
+      "Understand how Locksmith collects, uses, and protects your personal information.",
     keywords: [
       "privacy policy",
       "data protection",
@@ -82,7 +82,7 @@ export const BASE_DATA = {
       "privacy rights",
       "GDPR compliance",
     ],
-    alt: "Privacy Policy | Locksmith YSL",
+    alt: "Privacy Policy | Locksmith Papi",
     img: "https://i.ibb.co/qL9kkhfz/pexels-kindelmedia-7688336.jpg",
   },
   page_blogs: {
@@ -98,13 +98,13 @@ export const BASE_DATA = {
       "DIY lock repair",
       "locksmith industry news",
     ],
-    alt: "Blog | Locksmith YSL",
+    alt: "Blog | Locksmith PAPI",
     img: "https://i.ibb.co/BHtC7bp2/pexels-life-of-pix-8092.jpg",
   },
   page_services: {
     title: "Our Services",
     description:
-      "Discover the wide range of locksmith services offered by Locksmith YSL, including emergency lockout assistance, lock repair, and security upgrades.",
+      "Discover the wide range of locksmith services offered by Locksmith PAPI, including emergency lockout assistance, lock repair, and security upgrades.",
     keywords: [
       "locksmith services",
       "emergency locksmith",
@@ -115,7 +115,7 @@ export const BASE_DATA = {
       "automotive locksmith",
       "24/7 locksmith",
     ],
-    alt: "Our Services | Locksmith YSL",
+    alt: "Our Services | Locksmith PAPI",
     img: "https://i.ibb.co/gMNZwkXJ/pexels-thirdman-8482823.jpg",
   },
 };

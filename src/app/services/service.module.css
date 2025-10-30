@@ -31,9 +31,13 @@
 }
 
 .phoneIcon {
-    color: #2563eb;
+    color: var( --bgc_phoneIcon);
     font-size: 2.5rem;
     margin-bottom: 16px;
+}
+
+.phoneIcon:hover{
+    color: var(--bgc_bannerlink_call_hover);
 }
 
 .cubeTitle {

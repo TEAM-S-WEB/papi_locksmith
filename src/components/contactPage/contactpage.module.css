@@ -16,7 +16,7 @@
 .heading {
     font-size: 1.7rem;
     font-weight: 700;
-    color: #233876;
+    color: var(--color_title);
     margin-bottom: 6px;
     letter-spacing: 0.2px;
     text-align: center;
@@ -66,7 +66,7 @@
 }
 
 .button {
-    background: #233876;
+    background: var( --bgc_bannerlink_call);
     color: #fff;
     padding: 11px 0;
     border: none;
@@ -79,7 +79,7 @@
 }
 
 .button:hover {
-    background: #1e293b;
+    background: var(--bgc_bannerlink_call_hover);
 }
 
 @media (max-width: 600px) {

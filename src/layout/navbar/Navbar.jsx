@@ -3,7 +3,8 @@
 import React, { useState } from 'react'
 import styles from './navbar.module.css'
 import Image from 'next/image'
-import logo from '@/images/logo_ysl.png'
+import logo from '@/images/logo.png'
+import Bannerlink from '@/components/common/banner/link/Bannerlink'
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false)
@@ -13,14 +14,15 @@ const Navbar = () => {
     }
 
     return (
+        <>
         <div className={styles.navbar}>
             <a href="/" className={styles.navbarLogo}>
             <Image
                 src={logo}
                 alt="logo-site"
-                width={80}
-                height={66}
-            />
+                width={125}
+                height={145}
+                />
             </a>
             <div
                 className={styles.hamburger}
@@ -28,14 +30,14 @@ const Navbar = () => {
                 aria-label="Toggle navigation"
                 tabIndex={0}
                 role="button"
-            >
+                >
                 <div className={styles.hamburgerBar}></div>
                 <div className={styles.hamburgerBar}></div>
                 <div className={styles.hamburgerBar}></div>
             </div>
             <div
                 className={`${styles.navLinks} ${menuOpen ? styles.showNavLinks : ''}`}
-            >
+                >
                 <a href="/" className={styles.navLink}>Home</a>
                 <a href="/about" className={styles.navLink}>About</a>
                 <a href="/blogs" className={styles.navLink}>Blogs</a>
@@ -43,6 +45,8 @@ const Navbar = () => {
                 <a href="/contact" className={styles.navLink}>Contact</a>
             </div>
         </div>
+            <Bannerlink text="" description="Call us now" link="tel:+17326314663"/>
+                </>
     )
 }
 

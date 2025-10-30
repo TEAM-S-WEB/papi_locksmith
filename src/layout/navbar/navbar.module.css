@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.75rem 2rem;
+    padding: 0rem 2rem;
     box-shadow: 0 2px 8px var(--box_shadow_global)
 }
 
@@ -54,15 +54,17 @@
     height: 32px;
     cursor: pointer;
     z-index: 1001;
+     
+     
     
 }
 
 .hamburgerBar {
     height: 4px;
     width: 100%;
-    /* background: #e4e9f7;
-     */
-     background-color: var(--hamburgerBar_background);
+   
+    background: #e4e9f7;
+     /* background-color: var(--hamburgerBar_background); */
     border-radius: 2px;
     margin: 4px 0;
     transition: 0.3s;
@@ -100,6 +102,7 @@
     }
     .hamburger {
         display: flex;
+        
     }
 }
 

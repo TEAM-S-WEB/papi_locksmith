@@ -1,31 +1,39 @@
 :root {
   --background_global: #e4e2e2;
-  --background_hero_title: rgba(45, 62, 80, 0.85);
+  --background_hero_title: #16534dac;
   --foreground_global: #2d3e50;
   --background_container: #ffffffc3;
   --foreground_hover_global: #1a2738;
   --box_shadow_global: rgba(44,62,80,0.07);
   --color_global: #222;
-  --color_link_global: #224171;
-  --color_link_hover_global: rgba(52, 84, 209, 0.15);
+  --color_link_global: #e4e9f7;
+  --color_link_hover_global: #4db6ac70;
   --color_link_active_global: rgba(90, 209, 230, 0.12);
   --color_white: #ffffff;
 
-  --color_title: #2d3748;
+  --color_title: #004d40;
   --color_subtitle: #4a5568;
   --color_section_title: #2d3e50;
   
-  --background_navbar: #cccccc;
+  --background_navbar: #004d40;
   --hamburgerBar_color: #e4e9f7;
-  --hamburgerBar_background: #4a5568;
-  --hamburgerBar_background_links: #e9e9e9;
+  --hamburgerBar_background: #e4e9f7;
+  --hamburgerBar_background_links: #004d40;
 
-  --footer_background: #0a1b31;
+  --footer_background: #004d40;
   --footer_color: #f5f7fa;
   --footer_link_color: #b3c7e6;
   --footer_link_hover_background: rgba(255,255,255,0.08);
   --footer_link_hover_color: #fff;
   --footer_copyright_color: #7a8fa6;
+
+  /* btn */
+
+  --bgc_phoneIcon: #00897b;
+  --bgc_bannerlink_call: #00796b;
+  --bgc_bannerlink_call_hover: #4db6ac;
+  --bgc_emergency_btn: #ff5722;
+  --bgc_emergency_btn_hover: #ff8a65;
 
   /* Mobile styles */
 
