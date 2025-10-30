@@ -138,7 +138,7 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-V499MBRKDQ"
+          src="https://www.googletagmanager.com/gtag/js?id=G-FG1YRFKX6D"
           strategy="afterInteractive"
         />
 
@@ -147,7 +147,7 @@ export default function RootLayout({ children }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-V499MBRKDQ', { send_page_view: false });
+            gtag('config', 'G-FG1YRFKX6D', { send_page_view: false });
           `}
         </Script>
       </body>
