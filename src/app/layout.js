@@ -147,7 +147,7 @@ export default function RootLayout({ children }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-FG1YRFKX6D', { send_page_view: false });
+            gtag('config', 'G-FG1YRFKX6D');
           `}
         </Script>
       </body>
