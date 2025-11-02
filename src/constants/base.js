@@ -3,7 +3,7 @@ export const BASE_DATA = {
   altSiteName: "PAPI - 24/7 Locksmith Services",
   URL: "https://www.papilocksmith.com ",
   email: "lad8doors@gmail.com",
-  phone: "+1 (732) 631-4663",
+  phone: "+1 (646) 820-8780",
   address: "123 Main Street, New York, NY 10001",
   city: "New York",
   defaultLanguage: "en-US",
